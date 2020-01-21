@@ -1,0 +1,23 @@
+.Weather {
+    background: radial-gradient(#4e7ba3 0%, #134979 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.Weather p {
+    margin: 2px 0;
+}
+
+.city, .temp {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.Weather img {
+    max-width: 250px;
+}

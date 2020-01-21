@@ -1,0 +1,17 @@
+.FinishedQuiz {
+    padding: 20px;
+    border: 1px solid #fff;
+}
+
+.FinishedQuiz h4 {
+    margin: 5px 0;
+}
+
+.FinishedQuiz p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.FinishedQuiz li {
+    list-style: none;
+}

@@ -1,0 +1,22 @@
+.NavItem {
+    list-style: none;
+    text-align: center;
+}
+
+.NavItem a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    font-weight: 400;
+}
+
+.NavItem a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.NavItem a:hover {
+    opacity: .5;
+}

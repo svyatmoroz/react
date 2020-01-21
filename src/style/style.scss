@@ -1,0 +1,42 @@
+@import './config';
+
+$txtSize: 14px;
+$txtFamily: Arial, sans-serif, Helvetica;
+
+* {
+    @include default;
+}
+
+body {
+    font-size: $txtSize;
+    font-family: $txtFamily;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.3em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
+p, li, a {
+    font-size: $txtSize*1.3;
+}
